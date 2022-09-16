@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/oswald-v49-latin-regular.woff2') format('woff2'),
+    url('../fonts/oswald-v49-latin-regular.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/montserrat-v25-latin-regular.woff2') format('woff2'),
+    url('../fonts/montserrat-v25-latin-regular.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+body{
+    background-image: url(../img/photo_2022-09-02_10-15-22.jpg);
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+li,ul{
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* HEADER */
+.header__viza{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    
+    color: #626262;
+    
+}
+.header__img{
+    width: 23px;
+    top: 18px;
+}
+.header__number{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    
+    color: #626262;
+    
+}
+.header__text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    
+    color: #626262;
+    
+}
+.header__wrapper{
+    display: flex;
+    padding: 10px;
+}
+.header__button{
+    
+    background-color: #EA8F41;
+    border-radius: 5px;
+    margin: 15px;
+    border: 1px solid transparent;
+    color: #fff;
+    cursor: pointer;
+}
+.header__button__text{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+}
+.whatsap__img{
+    padding: 10px;
+}
+.telegram__img{
+    padding: 10px;
+}
+/* MAIN */
+.main_container{
+    flex-direction: column;
+}
+.main__text_{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    
+    color: #626262;
+    
+}
+.main__title__text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #626262;
+}
+.main__text{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 90px;
+}
+.main__span{
+    display: flex;
+    align-items: center;
+    
+    color: #EA8F41;
+}
+.main__img_{
+    padding: 10px;
+    margin-bottom: -18px;
+}
+.button{
+    width: 131.23px;
+    height: 47px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
